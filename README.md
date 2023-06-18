@@ -1,9 +1,10 @@
 # ESLint for Next.js
 
 ## Installation
-`yarn add -D \
-  prettier eslint-plugin-simple-import-sort \
-  @typescript-eslint/parser @typescript-eslint/eslint-plugin \
-    eslint-plugin-import eslint-import-resolver-typescript`
+
+1. Prettier: `yarn add -D prettier`
+2. Import sort plugin: `yarn add -D eslint-plugin-simple-import-sort`
+3. Typescript plugins: `yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin`
+4. Import plugin: `yarn add -D eslint-plugin-import eslint-import-resolver-typescript`
     
-See `.eslintrc.js` for configuration
+Copy the contents of `.eslintrc.js` into `.eslintrc.js` file in the root of your project.
